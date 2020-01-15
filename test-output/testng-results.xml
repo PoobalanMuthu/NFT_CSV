@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cross_para" duration-ms="0" started-at="2020-01-14T08:40:03Z" finished-at="2020-01-14T08:40:03Z">
+    <groups>
+    </groups>
+  </suite> <!-- cross_para -->
+  <suite name="Suite_seq" duration-ms="141297" started-at="2020-01-14T08:37:41Z" finished-at="2020-01-14T08:40:03Z">
+    <groups>
+    </groups>
+    <test name="S02_Login_As_Existing_User-Run1" duration-ms="82014" started-at="2020-01-14T08:37:41Z" finished-at="2020-01-14T08:39:04Z">
+      <class name="com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User">
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User@6ebc05a6]" name="startTestReport" is-config="true" duration-ms="5736" started-at="2020-01-14T14:07:41Z" finished-at="2020-01-14T14:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@91a2543]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User@6ebc05a6]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-01-14T14:07:47Z" finished-at="2020-01-14T14:07:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User.Test_NFT_S02_Login_As_Existing_User_TestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_NFT_S02_Login_As_Existing_User_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User@6ebc05a6]" name="Test_NFT_S02_Login_As_Existing_User_TestCase" duration-ms="75791" started-at="2020-01-14T14:07:47Z" finished-at="2020-01-14T14:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NFT_S02_Login_As_Existing_User_TestCase -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User@6ebc05a6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-14T14:09:03Z" finished-at="2020-01-14T14:09:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NFT_S02_Login_As_Existing_User_TestCase status=SUCCESS method=Test_NFT_S02_Login_As_Existing_User.Test_NFT_S02_Login_As_Existing_User_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User@6ebc05a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mop.qa.testbase.TestBase.afterMethod(TestBase.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.mop.qa.testrunner.TestRunner.main(TestRunner.java:165)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mop.qa.test.regression.Test_NFT_S02_Login_As_Existing_User -->
+    </test> <!-- S02_Login_As_Existing_User-Run1 -->
+    <test name="S03_Login_As_O2A_User_OtherStreams_GreyedOut-Run1" duration-ms="18364" started-at="2020-01-14T08:39:04Z" finished-at="2020-01-14T08:39:22Z">
+      <class name="com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut">
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut@4f063c0a]" name="startTestReport" is-config="true" duration-ms="3806" started-at="2020-01-14T14:09:04Z" finished-at="2020-01-14T14:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42730828]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut@4f063c0a]" name="Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase" duration-ms="14446" started-at="2020-01-14T14:09:07Z" finished-at="2020-01-14T14:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut@4f063c0a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-14T14:09:07Z" finished-at="2020-01-14T14:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut@4f063c0a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-14T14:09:22Z" finished-at="2020-01-14T14:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase status=SUCCESS method=Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut@4f063c0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mop.qa.testbase.TestBase.afterMethod(TestBase.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.mop.qa.testrunner.TestRunner.main(TestRunner.java:165)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mop.qa.test.regression.Test_NFT_S03_Login_As_O2A_User_OtherStreams_GreyedOut -->
+    </test> <!-- S03_Login_As_O2A_User_OtherStreams_GreyedOut-Run1 -->
+    <test name="S04_O2A_Stream_user_TestRun-Run1" duration-ms="20862" started-at="2020-01-14T08:39:22Z" finished-at="2020-01-14T08:39:43Z">
+      <class name="com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun">
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun@131276c2]" name="startTestReport" is-config="true" duration-ms="3962" started-at="2020-01-14T14:09:22Z" finished-at="2020-01-14T14:09:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18c7f6b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun@131276c2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-01-14T14:09:26Z" finished-at="2020-01-14T14:09:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun.Test_NFT_S04_O2A_Stream_user_TestRun_TestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_NFT_S04_O2A_Stream_user_TestRun_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun@131276c2]" name="Test_NFT_S04_O2A_Stream_user_TestRun_TestCase" duration-ms="16827" started-at="2020-01-14T14:09:26Z" finished-at="2020-01-14T14:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NFT_S04_O2A_Stream_user_TestRun_TestCase -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun@131276c2]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-14T14:09:43Z" finished-at="2020-01-14T14:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NFT_S04_O2A_Stream_user_TestRun_TestCase status=SUCCESS method=Test_NFT_S04_O2A_Stream_user_TestRun.Test_NFT_S04_O2A_Stream_user_TestRun_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mop.qa.testbase.TestBase.afterMethod(TestBase.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.mop.qa.testrunner.TestRunner.main(TestRunner.java:165)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mop.qa.test.regression.Test_NFT_S04_O2A_Stream_user_TestRun -->
+    </test> <!-- S04_O2A_Stream_user_TestRun-Run1 -->
+    <test name="S05_O2A_Stream_user_Current_Test_Results-Run1" duration-ms="20005" started-at="2020-01-14T08:39:43Z" finished-at="2020-01-14T08:40:03Z">
+      <class name="com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results">
+        <test-method status="PASS" signature="executeSuite(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="executeSuite" is-config="true" duration-ms="432" started-at="2020-01-14T14:07:41Z" finished-at="2020-01-14T14:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9be7319]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSuite -->
+        <test-method status="PASS" signature="startTestReport(org.testng.ITestContext)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="startTestReport" is-config="true" duration-ms="3840" started-at="2020-01-14T14:09:43Z" finished-at="2020-01-14T14:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9be7319]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2020-01-14T14:09:47Z" finished-at="2020-01-14T14:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results.Test_NFT_S05_O2A_Stream_user_TestRun_TestCase() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_NFT_S05_O2A_Stream_user_TestRun_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="Test_NFT_S05_O2A_Stream_user_TestRun_TestCase" duration-ms="16017" started-at="2020-01-14T14:09:47Z" finished-at="2020-01-14T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_NFT_S05_O2A_Stream_user_TestRun_TestCase -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-14T14:10:03Z" finished-at="2020-01-14T14:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_NFT_S05_O2A_Stream_user_TestRun_TestCase status=SUCCESS method=Test_NFT_S05_O2A_Stream_user_Current_Test_Results.Test_NFT_S05_O2A_Stream_user_TestRun_TestCase()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mop.qa.testbase.TestBase.afterMethod(TestBase.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at com.mop.qa.testrunner.TestRunner.main(TestRunner.java:165)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-14T14:10:03Z" finished-at="2020-01-14T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="finishExecution()[pri:0, instance:com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results@d44fc21]" name="finishExecution" is-config="true" duration-ms="0" started-at="2020-01-14T14:10:03Z" finished-at="2020-01-14T14:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishExecution -->
+      </class> <!-- com.mop.qa.test.regression.Test_NFT_S05_O2A_Stream_user_Current_Test_Results -->
+    </test> <!-- S05_O2A_Stream_user_Current_Test_Results-Run1 -->
+  </suite> <!-- Suite_seq -->
+</testng-results>

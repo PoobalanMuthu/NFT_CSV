@@ -1,0 +1,16 @@
+TestCase,URL,UserName,EmailAddress,EmailRegister,Password,ConfirmPassword,payload
+S01_New_Registration-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,Sri.my4@team.telstra.com,Test@1243,Test@1243,-
+S02_Login_As_Existing_User-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S03_Login_As_O2A_User_OtherStreams_GreyedOut-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,team.myabc16@team.telstra.com,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
+S04_O2A_Stream_user_TestRun-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S05_O2A_Stream_user_Current_Test_Results-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S06_O2A_Stream_user_View_Edit_Payload-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
+S07_see_Result_of_Particular_Test_from_Outputs_TestHistoryPage-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S08_see_Payload_in_Historical_test_of_particular_test-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S09_see_Test_Histories_from_TestHistoryCard-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S10_stopTest_Once_Launched_withoutCheckPayload-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S11_see_Any_Aborted_Tests_from_TestHistory-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,-,Test@1243,Test@1243,-
+S13_check_GeneralMetrics_in_Portal_Insights_As_a_ExistingSSPUser-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,team.myabc16@team.telstra.com,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
+S14_see_All_The_Metrics_As_an_AdminSSPUser-Run1,https://svt-serviceportal.sdpamp.com/,Satish.Sadasivam@team.telstra.com,Satish.Sadasivam@team.telstra.com,team.myabc16@team.telstra.com,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
+S15_execute_Test_from_Any_Stream-Run1,https://svt-serviceportal.sdpamp.com/,Satish.Sadasivam@team.telstra.com,Satish.Sadasivam@team.telstra.com,team.myabc16@team.telstra.com,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
+End_to_End_Testing-Run1,https://svt-serviceportal.sdpamp.com/,Srividya.Ramaswamy@team.telstra.com,Srividya.Ramaswamy@team.telstra.com,team.myabc16@team.telstra.com,Test@1243,Test@1243,https://en.wikipedia.org/wiki/Leon_Trotsky_thats_me/SatishTelstra
