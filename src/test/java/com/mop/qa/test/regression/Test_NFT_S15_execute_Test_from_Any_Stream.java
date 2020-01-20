@@ -23,9 +23,14 @@ public class Test_NFT_S15_execute_Test_from_Any_Stream extends TestBase {
 			
 			CSVUtil rdss = new CSVUtil();
 			System.out.println("Get Data from CSV File!!!");
-            String URL = rdss.readCSVFilewitRowName("URL", "S04_O2A_Stream_user_TestRun-Run1");
+           /* String URL = rdss.readCSVFilewitRowName("URL", "S04_O2A_Stream_user_TestRun-Run1");
             String username = rdss.readCSVFilewitRowName( "UserName", "S04_O2A_Stream_user_TestRun-Run1");
-            String password = rdss.readCSVFilewitRowName( "Password", "S04_O2A_Stream_user_TestRun-Run1");
+            String password = rdss.readCSVFilewitRowName( "Password", "S04_O2A_Stream_user_TestRun-Run1");*/
+			
+			
+			String URL = rdss.readCSVFilewitRowName("URL", "S15_execute_Test_from_Any_Stream-Run1");
+            String username = rdss.readCSVFilewitRowName( "UserName", "S15_execute_Test_from_Any_Stream-Run1");
+            String password = rdss.readCSVFilewitRowName( "Password", "S15_execute_Test_from_Any_Stream-Run1");
 			
                    
 			NFT_ServicePortal NFTobj = null;

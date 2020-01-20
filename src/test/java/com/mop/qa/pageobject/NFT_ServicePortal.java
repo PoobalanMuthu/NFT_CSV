@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -231,7 +232,7 @@ public class NFT_ServicePortal extends PageBase {
 	 * As a first time user, I need to register myself into the SSP Portal*/
 
 	
-	public void newRegisteration(String webURL, String Name, String Password,String ConfirmPassword,String EmailRegister) throws Exception {
+	/*public void newRegisteration(String webURL, String Name, String Password,String ConfirmPassword,String EmailRegister) throws Exception {
 		if (toolName.equalsIgnoreCase("Selenium")) {
 			enterUrl(webURL);
 			click(dontHaveAccount_Web, " Don't have an account ");
@@ -251,7 +252,42 @@ public class NFT_ServicePortal extends PageBase {
 			Thread.sleep(1000);
 			remoteDriver.close();
 		}
-	}
+	}*/
+	
+	
+	public void newRegisteration(String webURL, String Name, String Password,String ConfirmPassword) throws Exception {
+        if (toolName.equalsIgnoreCase("Selenium")) {
+            enterUrl(webURL);
+            click(dontHaveAccount_Web, " Don't have an account ");
+            
+            
+            String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+            StringBuilder salt = new StringBuilder();
+            Random rnd = new Random();
+            while (salt.length() < 8) { // length of the random string.
+                int index = (int) (rnd.nextFloat() * str.length());
+                salt.append(str.charAt(index));
+            }
+            String emailRegister = salt.toString()+"@team.telstra.com";
+            
+            
+            enterText(emailAddress_Web, emailRegister, "Email Address");
+            enterText(Name_Web, Name, "Name");
+            
+            WebElement Team = remoteDriver.findElement(By.className("css-19bqh2r"));
+            Team.click();
+            Thread.sleep(2000);      
+            remoteDriver.findElement(By.xpath("//*[text()='O2A']")).click();
+            Thread.sleep(2000);
+            
+            enterText(password_Web, Password, "Password");
+            enterText(Confirmpassword_Web, ConfirmPassword, "Confirm Password");
+            click(RegisterButton_Web, "RegisterButton");
+            System.out.println("Registered - New Registration completed");
+            Thread.sleep(1000);
+            remoteDriver.close();
+        }
+    }
 
 	
 
